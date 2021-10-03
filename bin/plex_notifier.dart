@@ -2,6 +2,8 @@ import 'dart:io';
 import 'dart:convert';
 import 'dart:typed_data';
 
+import 'package:multipart/multipart.dart';
+
 const kDISCORD_WEBHOOK =
     "https://discord.com/api/webhooks/892084912457400340/-dVRWne65KPgku6pB_FJk6kwsClKvD31UlweyadUJEwNS71pb2fxURg_hOjHDD3k1TmS";
 
@@ -12,6 +14,9 @@ void main() async {
 
   await for (HttpRequest r in server) {
     if (r.method == 'POST') {
+      final multiPart = Multipart(r);
+      final parts = await multiPart.load();
+
       final currentEvent =
           PlexPayload.fromJson(json.decode(await utf8.decodeStream(r)));
       print(currentEvent.title);
