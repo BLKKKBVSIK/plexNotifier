@@ -21,6 +21,7 @@ void main() async {
             PlexPayload.fromJson(json.decode(await parts.first.content.text()));
       }
       print(currentEvent!.title);
+      File('showImage.jpg').writeAsBytes(await parts.last.content.takeBytes());
 
       HttpClient httpClient = HttpClient();
       HttpClientRequest request =
