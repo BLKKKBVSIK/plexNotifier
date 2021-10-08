@@ -21,18 +21,22 @@ void main() async {
             PlexPayload.fromJson(json.decode(await parts.first.content.text()));
       }
       print(currentEvent!.title);
-      File('showImage.jpg').writeAsBytes(await parts.last.content.takeBytes());
 
-      HttpClient httpClient = HttpClient();
-      HttpClientRequest request =
-          await httpClient.postUrl(Uri.tryParse(kDISCORD_WEBHOOK)!);
-      request.headers.contentType =
-          ContentType("application", "json", charset: "utf-8");
-      request.write(
-        currentEvent.createJsonForDiscordWebhook(),
-      );
+      if (currentEvent.event == "library.new") {
+        File('showImage.jpg')
+            .writeAsBytes(await parts.last.content.takeBytes());
+
+        HttpClient httpClient = HttpClient();
+        HttpClientRequest request =
+            await httpClient.postUrl(Uri.tryParse(kDISCORD_WEBHOOK)!);
+        request.headers.contentType =
+            ContentType("application", "json", charset: "utf-8");
+        request.write(
+          currentEvent.createJsonForDiscordWebhook(),
+        );
+        request.close();
+      }
       r.response.close();
-      request.close();
     } else {
       r.response
         ..headers.set('Content-Type', 'text/html')
