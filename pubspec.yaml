@@ -8,6 +8,7 @@ environment:
 
 
 dependencies:
+  dio: ^4.0.0
   multipart: ^0.1.2
 
 dev_dependencies:
