@@ -18,6 +18,7 @@ void main() async {
       PlexPayload? currentEvent;
       final multiPart = Multipart(r);
       final parts = await multiPart.load();
+      r.response.close();
 
       if (parts.first.filename == null) {
         Map<String, dynamic> decodedJSON;
@@ -50,8 +51,6 @@ void main() async {
               }),
             );
             if (response.statusCode == 200) {
-              print("HIII");
-
               imgurPayload = ImgurPayload.fromJson(
                   (response.data as Map<String, dynamic>));
             } else {
@@ -74,7 +73,6 @@ void main() async {
           request.close();
         }
       }
-      r.response.close();
     } else {
       r.response
         ..headers.set('Content-Type', 'text/html')
