@@ -1,0 +1,154 @@
+{
+    "event":"media.pause",
+    "user":true,
+    "owner":true,
+    "Account":{
+       "id":1,
+       "thumb":"https://plex.tv/users/c45f5d033eacde12/avatar?c=1623502899",
+       "title":"indefined3@gmail.com"
+    },
+    "Server":{
+       "title":"blkkkbvsik-nas",
+       "uuid":"c5bc23b3d7f8c7c2db6f5bbe8a7485d04381baab"
+    },
+    "Player":{
+       "local":true,
+       "publicAddress":"",
+       "title":"Chrome",
+       "uuid":"9mx3bk8vytdvkvll9ezmvhk2"
+    },
+    "Metadata":{
+       "librarySectionType":"show",
+       "ratingKey":"4083",
+       "key":"/library/metadata/4083",
+       "parentRatingKey":"4077",
+       "grandparentRatingKey":"4028",
+       "guid":"plex://episode/5d9c0fd6ffd9ef001e9e0edd",
+       "parentGuid":"plex://season/602e6221de471d002d067b85",
+       "grandparentGuid":"plex://show/5d9c08353c3f87001f34a531",
+       "type":"episode",
+       "title":"Pink Chanel Suit",
+       "grandparentKey":"/library/metadata/4028",
+       "parentKey":"/library/metadata/4077",
+       "librarySectionTitle":"TV Shows",
+       "librarySectionID":2,
+       "librarySectionKey":"/library/sections/2",
+       "grandparentTitle":"The Mentalist",
+       "parentTitle":"Season 3",
+       "contentRating":"TV-14",
+       "summary":"The case of a murder and missing person on an intensely secure wealthy family's compound perplexes Jane and the CBI team.",
+       "index":6,
+       "parentIndex":3,
+       "audienceRating":7.6,
+       "thumb":"/library/metadata/4083/thumb/1631830013",
+       "art":"/library/metadata/4028/art/1631829990",
+       "parentThumb":"/library/metadata/4077/thumb/1631830010",
+       "grandparentThumb":"/library/metadata/4028/thumb/1631829990",
+       "grandparentArt":"/library/metadata/4028/art/1631829990",
+       "grandparentTheme":"/library/metadata/4028/theme/1631829990",
+       "originallyAvailableAt":"2010-10-28",
+       "addedAt":1631830003,
+       "updatedAt":1631830013,
+       "audienceRatingImage":"thetvdb://image.rating",
+       "Director":[
+          {
+             "id":11812,
+             "filter":"director=11812",
+             "tag":"Eric Laneuville"
+          }
+       ],
+       "Writer":[
+          {
+             "id":11604,
+             "filter":"writer=11604",
+             "tag":"Ken Woodruff"
+          }
+       ],
+       "Guid":[
+          {
+             "id":"imdb://tt1728930"
+          },
+          {
+             "id":"tmdb://367744"
+          },
+          {
+             "id":"tvdb://2847881"
+          }
+       ],
+       "Role":[
+          {
+             "id":12080,
+             "filter":"actor=12080",
+             "tag":"Chryssie Whitehead",
+             "role":"Sophie",
+             "thumb":"https://metadata-static.plex.tv/3/people/3bf3cd741884f06f9f4c0eef5d55c15a.jpg"
+          },
+          {
+             "id":12081,
+             "filter":"actor=12081",
+             "tag":"Arye Gross",
+             "role":"Dr. Saban",
+             "thumb":"https://metadata-static.plex.tv/people/5d776827f54112001f5bc071.jpg"
+          },
+          {
+             "id":12082,
+             "filter":"actor=12082",
+             "tag":"Brett Wagner",
+             "role":"Raymond Tubbs",
+             "thumb":"https://metadata-static.plex.tv/people/5d77682c8718ba001e312a14.jpg"
+          },
+          {
+             "id":12083,
+             "filter":"actor=12083",
+             "tag":"Keri Lynn Pratt",
+             "role":"Daniella",
+             "thumb":"https://metadata-static.plex.tv/7/people/7d747aca059c2cef404e11e623b1c084.jpg"
+          },
+          {
+             "id":12084,
+             "filter":"actor=12084",
+             "tag":"Christine Rose",
+             "role":"Pauline"
+          },
+          {
+             "id":12085,
+             "filter":"actor=12085",
+             "tag":"Derek Webster",
+             "role":"Whiteside",
+             "thumb":"https://metadata-static.plex.tv/people/5d7768285af944001f1f7238.jpg"
+          },
+          {
+             "id":12086,
+             "filter":"actor=12086",
+             "tag":"Marc Worden",
+             "role":"Howard \"Howie\" Dressler",
+             "thumb":"https://metadata-static.plex.tv/people/5d77683b85719b001f3a4e28.jpg"
+          },
+          {
+             "id":11514,
+             "filter":"actor=11514",
+             "tag":"Aunjanue Ellis",
+             "role":"Madeleine Hightower",
+             "thumb":"https://metadata-static.plex.tv/a/people/a3d7ad21c9eba98c74b2e78d362e4f1a.jpg"
+          },
+          {
+             "id":12087,
+             "filter":"actor=12087",
+             "tag":"Dan Watkins",
+             "role":"Austin Marr"
+          },
+          {
+             "id":12088,
+             "filter":"actor=12088",
+             "tag":"Rory Knox Johnston",
+             "role":"Priest"
+          },
+          {
+             "id":12089,
+             "filter":"actor=12089",
+             "tag":"Lance Irwin",
+             "role":"Security Agent"
+          }
+       ]
+    }
+ }
