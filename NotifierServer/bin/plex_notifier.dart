@@ -50,8 +50,6 @@ void main() async {
               }),
             );
             if (response.statusCode == 200) {
-              print("HIII");
-
               imgurPayload = ImgurPayload.fromJson(
                   (response.data as Map<String, dynamic>));
             } else {

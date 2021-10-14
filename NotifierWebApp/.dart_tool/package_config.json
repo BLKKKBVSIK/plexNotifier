@@ -14,12 +14,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "bytes_io",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/bytes_io-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "characters",
       "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0",
       "packageUri": "lib/",
@@ -44,14 +38,14 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "cupertino_icons",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.3",
+      "name": "crypto",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
-      "name": "dio",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/dio-4.0.0",
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -80,8 +74,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "http_parser",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "name": "get_it",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/get_it-7.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -104,20 +98,20 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "multipart",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/multipart-0.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "nanoid",
-      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/nanoid-1.0.0",
+      "name": "nested",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
       "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -136,6 +130,12 @@
     {
       "name": "stack_trace",
       "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stacked",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/stacked-2.2.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,6 +170,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "universal_io",
+      "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/universal_io-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/blkkkbvsik/Documents/flutterSDK/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0",
       "packageUri": "lib/",
@@ -182,7 +188,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-14T12:05:26.427002Z",
+  "generated": "2021-10-14T12:36:47.767197Z",
   "generator": "pub",
   "generatorVersion": "2.14.2"
 }
