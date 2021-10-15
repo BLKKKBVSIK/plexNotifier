@@ -10,8 +10,8 @@ const kDISCORD_WEBHOOK =
     "https://discord.com/api/webhooks/892084912457400340/-dVRWne65KPgku6pB_FJk6kwsClKvD31UlweyadUJEwNS71pb2fxURg_hOjHDD3k1TmS";
 
 void main() async {
-  var server = await HttpServer.bind('127.0.0.1', 9000);
-  print("[Debug] Http server opened on http://127.0.0.1:9000/");
+  var server = await HttpServer.bind('0.0.0.0', 9000);
+  print("[Debug] Http server opened on http://0.0.0.0:9000/");
 
   await for (HttpRequest r in server) {
     if (r.method == 'POST') {
