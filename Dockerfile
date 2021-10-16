@@ -3,7 +3,7 @@ FROM debian:latest AS build-env
 
 # Install flutter dependencies
 RUN apt-get update 
-RUN apt-get install -y curl git wget unzip libgconf-2-4 gdb libstdc++6 libglu1-mesa fonts-droid-fallback python3
+RUN apt-get install -y curl git wget unzip libgconf-2-4 gdb libstdc++6 libglu1-mesa fonts-droid-fallback python3 psmisc
 RUN apt-get clean
 
 # Clone the flutter repo
@@ -23,13 +23,21 @@ RUN flutter config --enable-web
 # Copy files to container and build
 RUN mkdir /app/
 COPY . /app/
+RUN ["chmod", "+x", "/app/NotifierWebApp/server/server.sh"]
+
+# Building server requirement
 WORKDIR /app/NotifierServer
-
 RUN dart pub get
+EXPOSE 9000
 
-EXPOSE 9000/tcp
-EXPOSE 9000/udp
+# Building webapp requirement
+WORKDIR /app/NotifierWebApp
+RUN flutter pub get
+RUN flutter build web
+EXPOSE 32485
 
-ENTRYPOINT ["dart", "bin/plex_notifier.dart"]
+
+
+ENTRYPOINT [ "/app/NotifierWebApp/server/server.sh" ]
 
 
